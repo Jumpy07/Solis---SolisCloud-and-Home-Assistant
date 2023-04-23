@@ -56,4 +56,4 @@ The Elfin adapater creates its own hotspot on startup, you will need to configur
 Whilst I wont go into installing Home Assistant and setup here ( there are many guides allready to do this)
 I found the easiest way to intergrate with the Solis inverter is through installing SolaX, details can be found here: https://github.com/wills106/homeassistant-solax-modbus
 
-Once SolaZ is installed, just configure it in the panel with the IP address of the ELFIN Wifi adapter (needs static IP) and the port number 502. Reload the plugin and you should see it connect all going well.
+Once Solax is installed, just configure it in the panel with the IP address of the ELFIN Wifi adapter (needs static IP) and the port number 502. Reload the plugin and you should see it connect all going well.
