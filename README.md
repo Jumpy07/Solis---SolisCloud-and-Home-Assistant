@@ -6,7 +6,7 @@ There are many ways to pull data from Solis Cloud into Home Assistant through us
 
 The solution detailed here is to allow your Home Assistant installation to control your Solis Battery Storage system, whilst at the same time retaining your Solis Cloud through your existing Solis Data Logger. If you dont want to retain your Solis Data Logger, or dont have one... then there are simpler ways to achieve this.
 
-RS484 / Modbus consists of Slaves and Masters, the Solis Inverter is a Slave, and the Solis Data Stick is a Master, unfortunately the Home Assistant Connection is also a Master and on a RS485 bus, typically only one master is allowed. To therefore allow both the Solis Data Logger and the Homne Assistant connections to work, we need a way of allowing two masters on the RS485 bus.
+RS485 / Modbus consists of Slaves and Masters, the Solis Inverter is a Slave, and the Solis Data Stick is a Master, unfortunately the Home Assistant Connection is also a Master and on a RS485 bus, typically only one master is allowed. To therefore allow both the Solis Data Logger and the Homne Assistant connections to work, we need a way of allowing two masters on the RS485 bus.
 
 # List of Parts Required
 
@@ -35,4 +35,9 @@ RS484 / Modbus consists of Slaves and Masters, the Solis Inverter is a Slave, an
 # Elfin-EW1X
 
 ![En-küçük-elfin-ew10a-kablosuz-ağ-cihazları-modbus](https://user-images.githubusercontent.com/118439620/233855232-dc24a655-0af5-42e0-98a3-d3faa02b9795.jpg)
+
+# Connecting it all up
+
+![solis](https://user-images.githubusercontent.com/118439620/233855405-deb309dd-1b54-49ac-9ebf-71d98e47ed87.jpg)
+
 
