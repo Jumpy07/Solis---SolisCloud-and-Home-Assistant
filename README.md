@@ -8,6 +8,8 @@ The solution detailed here is to allow your Home Assistant installation to contr
 
 RS485 / Modbus consists of Slaves and Masters, the Solis Inverter is a Slave, and the Solis Data Stick is a Master, unfortunately the Home Assistant Connection is also a Master and on a RS485 bus, typically only one master is allowed. To therefore allow both the Solis Data Logger and the Homne Assistant connections to work, we need a way of allowing two masters on the RS485 bus.
 
+I assume you know your way around TCP/IP networks, can use a soldering iron, and have a multi-meter to check your wiring. NO LIABILITY WILL BE ACCECPTED IF YOU DAMAGE THE RS485 PORT ON YOUR INVERTER, DO THIS AT YOUR OWN RISK.
+
 # List of Parts Required
 
  1. Elfin-EW1X  (RS485/Modbus to WiFI Adapter
@@ -40,7 +42,11 @@ RS485 / Modbus consists of Slaves and Masters, the Solis Inverter is a Slave, an
 
 ![solis](https://user-images.githubusercontent.com/118439620/233855405-deb309dd-1b54-49ac-9ebf-71d98e47ed87.jpg)
 
+There is no need for terminating resistors, (The RS485 splitter comes with some if you do).
+
 # Elfin EL1* Config for Home Assistant
+
+The Elfin adapater creates its own hotspot on startup, you will need to configure it for your own wifi network and use the settings below. PLEASE NOTE IT WILL NEED A STATIC IP. 
 
 ![Serial](https://user-images.githubusercontent.com/118439620/233855578-d6d0e1ac-9a60-4181-ab72-fd9846071a2f.png)
 ![Comms](https://user-images.githubusercontent.com/118439620/233855580-b00d36d7-f925-4189-90c5-e3d3ac699f94.png)
