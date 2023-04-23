@@ -20,8 +20,13 @@ RS484 / Modbus consists of Slaves and Masters, the Solis Inverter is a Slave, an
  
  
 
-#Block Diagram
+# Block Diagram
 
 ![Block_Diagram](https://user-images.githubusercontent.com/118439620/233854313-77e940e0-4a45-4939-bf61-8ab2cae66072.jpg)
+
+# Solis  / Ginlong Plug and Socket
+
+![exeedconn](https://user-images.githubusercontent.com/118439620/233855102-5a18d3e9-6aa1-44e2-9918-01a01b63efcb.png)
+
 
 
