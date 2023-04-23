@@ -4,7 +4,7 @@ Solis PV Inverters and AC Inverters have the option of installing a Solis data l
 
 There are many ways to pull data from Solis Cloud into Home Assistant through using the Solis API, (detailed elsewhere) but there is no write option from Home Assistant to Solis cloud at this time. Why is this important, well if you have a Solis Battery Storage system you will find out pretty quickly that you are spending a lot of time manually configuring the charge times and options to optmises your Solar PV Generation and or your Off Peak Tariff Charging of your battery.
 
-The solution detailed here is to allow your Home Assistant installation to control your Solis Battery Storage system, whilst at the same time retaining your Solis Cloud through your existing Solis Data Logger. If you dont want to retain your Solis Data Logger, or dont have one... then there are simpler ways to achieve this.
+The solution detailed here is to allow your Home Assistant installation to control your Solis Battery Storage system, whilst at the same time retaining your Solis Cloud through your existing Solis Data Logger. If you dont want to retain your Solis Data Logger, or dont have one... then there are simpler ways to achieve this without a lot of wiring.
 
 RS485 / Modbus consists of Slaves and Masters, the Solis Inverter is a Slave, and the Solis Data Stick is a Master, unfortunately the Home Assistant Connection is also a Master and on a RS485 bus, typically only one master is allowed. To therefore allow both the Solis Data Logger and the Homne Assistant connections to work, we need a way of allowing two masters on the RS485 bus.
 
