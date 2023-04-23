@@ -6,7 +6,7 @@ There are many ways to pull data from Solis Cloud into Home Assistant through us
 
 The solution detailed here is to allow your Home Assistant installation to control your Solis Battery Storage system and log data statistics locally, whilst at the same time retaining your Solis Cloud through your existing Solis Data Logger. If you dont want to retain your Solis Data Logger, or dont have one... then there are simpler ways to achieve this without a lot of wiring. (not detailed here).
 
-The RS485 / Modbus comms consist of Slaves and Masters, the Solis Inverter is a Slave, and the Solis Data Stick is a Master, unfortunately the Home Assistant Connection is also a Master and on a RS485 bus, typically only one master is allowed. To therefore allow both the Solis Data Logger and the Homne Assistant connections to work without issues or loosing data, we need a way of allowing two masters on the RS485 bus.
+The RS485 / Modbus comms consist of Slaves and Masters, the Solis Inverter is a Slave, and the Solis Data Stick is a Master, unfortunately the Home Assistant Connection is also a Master and on a RS485 bus, typically only one master is allowed. To therefore allow both the Solis Data Logger and the Home Assistant connections to work without issues or loosing data, we need a way of allowing two masters on the RS485 bus.
 
 I will assume you know your way around TCP/IP networks, have Home Assistant allready installed, can use a soldering iron, and have a multi-meter to check your wiring. NO LIABILITY WILL BE ACCECPTED IF YOU DAMAGE THE RS485 PORT ON YOUR INVERTER, DO THIS AT YOUR OWN RISK.
 
