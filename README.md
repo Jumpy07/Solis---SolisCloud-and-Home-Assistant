@@ -12,7 +12,7 @@ I will assume you know your way around TCP/IP networks, have Home Assistant allr
 
 # List of Parts Required
 
- 1. Elfin-EW1X  Make sure its the RS485 versions. (RS485/Modbus to WiFI Adapter)
+ 1. Elfin-EW11  Make sure its the RS485 versions. (RS485/Modbus to WiFI Adapter)
  2. GC-1201 RS485 / Modbus Dual Host Adapter
  3. Solis Data Logger
  4. Ginlong / Solis Plug and Socket
@@ -34,7 +34,7 @@ I will assume you know your way around TCP/IP networks, have Home Assistant allr
 
 ![30184964](https://user-images.githubusercontent.com/118439620/233855180-48cb40f2-3c9e-4b50-9c8e-d85f422f4d14.jpg)
 
-# Elfin-EW1X
+# Elfin-EW11
 
 ![images (1) jpers485](https://user-images.githubusercontent.com/118439620/233860581-a5dc78f6-2aaa-4502-b845-95e5ef474e98.jpeg)
 
