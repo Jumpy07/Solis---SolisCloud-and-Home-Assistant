@@ -40,4 +40,8 @@ RS485 / Modbus consists of Slaves and Masters, the Solis Inverter is a Slave, an
 
 ![solis](https://user-images.githubusercontent.com/118439620/233855405-deb309dd-1b54-49ac-9ebf-71d98e47ed87.jpg)
 
+# Elfin EL1* Config for Home Assistant
+
+![Serial](https://user-images.githubusercontent.com/118439620/233855578-d6d0e1ac-9a60-4181-ab72-fd9846071a2f.png)
+![Comms](https://user-images.githubusercontent.com/118439620/233855580-b00d36d7-f925-4189-90c5-e3d3ac699f94.png)
 
