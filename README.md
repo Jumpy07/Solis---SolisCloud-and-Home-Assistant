@@ -57,3 +57,11 @@ Whilst I wont go into installing Home Assistant and setup here ( there are many 
 I found the easiest way to intergrate with the Solis inverter is through installing SolaX, details can be found here: https://github.com/wills106/homeassistant-solax-modbus
 
 Once Solax is installed, just configure it in the panel with the IP address of the ELFIN Wifi adapter (needs static IP) and the port number 502. Reload the plugin and you should see it connect all going well.
+
+## What it all looks like..
+
+![photo_2023-04-22_13-35-15](https://user-images.githubusercontent.com/118439620/233856214-688dc7b0-8fbf-49cd-b7b5-9f2588c692e4.jpg)
+
+![342913273_464759539145371_8647742042126023905_n](https://user-images.githubusercontent.com/118439620/233856217-256645e0-d589-4145-813e-c3b004dbac04.jpg)
+
+![342874861_572697404672110_3780646107351505346_n](https://user-images.githubusercontent.com/118439620/233856224-4145d521-abfa-4ecf-b20d-9500fd0f8a14.jpg)
