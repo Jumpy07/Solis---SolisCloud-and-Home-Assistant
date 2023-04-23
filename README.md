@@ -28,5 +28,11 @@ RS484 / Modbus consists of Slaves and Masters, the Solis Inverter is a Slave, an
 
 ![exeedconn](https://user-images.githubusercontent.com/118439620/233855102-5a18d3e9-6aa1-44e2-9918-01a01b63efcb.png)
 
+# GC-1201K RS485 / Modbus Dual Host Adapter
 
+![30184964](https://user-images.githubusercontent.com/118439620/233855180-48cb40f2-3c9e-4b50-9c8e-d85f422f4d14.jpg)
+
+# Elfin-EW1X
+
+![En-küçük-elfin-ew10a-kablosuz-ağ-cihazları-modbus](https://user-images.githubusercontent.com/118439620/233855232-dc24a655-0af5-42e0-98a3-d3faa02b9795.jpg)
 
