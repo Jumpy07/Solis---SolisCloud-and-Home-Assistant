@@ -45,3 +45,9 @@ RS485 / Modbus consists of Slaves and Masters, the Solis Inverter is a Slave, an
 ![Serial](https://user-images.githubusercontent.com/118439620/233855578-d6d0e1ac-9a60-4181-ab72-fd9846071a2f.png)
 ![Comms](https://user-images.githubusercontent.com/118439620/233855580-b00d36d7-f925-4189-90c5-e3d3ac699f94.png)
 
+# Home Assistant
+
+Whilst I wont go into installing Home Assistant and setup here ( there are many guides allready to do this)
+I found the easiest way to intergrate with the Solis inverter is through installing SolaX, details can be found here: https://github.com/wills106/homeassistant-solax-modbus
+
+Once SolaZ is installed, just configure it in the panel with the IP address of the ELFIN Wifi adapter (needs static IP) and the port number 502. Reload the plugin and you should see it connect all going well.
