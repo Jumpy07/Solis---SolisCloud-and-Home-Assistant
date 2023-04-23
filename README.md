@@ -45,7 +45,7 @@ I will assume you know your way around TCP/IP networks, have Home Assistant allr
 
 There is no need for terminating resistors, (The RS485 splitter comes with some if you do).
 
-# Elfin EL1* Config for Home Assistant
+# Elfin EW11 Config for Home Assistant
 
 The Elfin adapater creates its own hotspot on startup, you will need to configure it for your own wifi network and use the settings below. PLEASE NOTE IT WILL NEED A STATIC IP. 
 
