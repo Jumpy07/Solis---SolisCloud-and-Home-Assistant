@@ -20,7 +20,7 @@ I assume you know your way around TCP/IP networks, can use a soldering iron, and
  6. 12v Regulated Power Supply
  7. Twisted Cable (CAT Cable will do)
  
- 
+ Most of these parts you can get from Alliexpress or Ebay..
 
 # Block Diagram
 
