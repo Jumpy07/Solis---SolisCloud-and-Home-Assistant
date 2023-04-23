@@ -58,6 +58,8 @@ I found the easiest way to intergrate with the Solis inverter is through install
 
 Once Solax is installed, just configure it in the panel with the IP address of the ELFIN Wifi adapter (needs static IP) and the port number 502. Reload the plugin and you should see it connect all going well.
 
+To pull weather into Home Assistant I use Solcast..   you can then use the forecast and create an automation to set the charging of your Solis Battery Storage.
+
 # What it all looks like..
 
 ![photo_2023-04-22_13-35-15](https://user-images.githubusercontent.com/118439620/233856214-688dc7b0-8fbf-49cd-b7b5-9f2588c692e4.jpg)
