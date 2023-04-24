@@ -56,9 +56,11 @@ Checking the voltage on pins 1 and 2 with a multimeter will ensure power is prov
  
 Checking the voltage on pins 3 and 4 with a multimeter will ensure RS485 signal between the inverter and the communication device. RS-485 voltage should read ~1.7Volts on DC  
  
- ![jvBFBvn7jiKxfafyXGftIUBeaRcgPQb5RQ](https://user-images.githubusercontent.com/118439620/233996781-e964f259-f771-4055-ad35-1e9219c80a2e.png)
 
- ![Qnj0q0FOZYWB603nZCFglUWanluht1yDXQ](https://user-images.githubusercontent.com/118439620/233996798-17b65f67-b93c-47ab-b19d-1abcf0fe85e6.png)
+![jvBFBvn7jiKxfafyXGftIUBeaRcgPQb5RQ](https://user-images.githubusercontent.com/118439620/233996781-e964f259-f771-4055-ad35-1e9219c80a2e.png)
+
+![Qnj0q0FOZYWB603nZCFglUWanluht1yDXQ](https://user-images.githubusercontent.com/118439620/233996798-17b65f67-b93c-47ab-b19d-1abcf0fe85e6.png)
+
 
 
 # Elfin EW11 Config for Home Assistant
