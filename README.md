@@ -45,7 +45,7 @@ I will assume you know your way around TCP/IP networks, have Home Assistant allr
 
 There is no need for terminating resistors, (The RS485 splitter comes with some if you do).
 
-# Solis connector
+# Solis RS485 / Modbus Connector
 
 This port is a green port located externally on all Solis inverters on the bottom of the inverter.  
 Pin 1 = +5 volts DC
