@@ -45,6 +45,22 @@ I will assume you know your way around TCP/IP networks, have Home Assistant allr
 
 There is no need for terminating resistors, (The RS485 splitter comes with some if you do).
 
+# Solis connector
+
+This port is a green port located externally on all Solis inverters on the bottom of the inverter.  
+Pin 1 = +5 volts DC
+pin 2 = -5 volts DC 
+Pin 3= +RS485
+Pin 4 = -RS485
+Checking the voltage on pins 1 and 2 with a multimeter will ensure power is provided to the communication device (ex: wifi datalogger. The voltage reading should be 5V on DC.
+ 
+Checking the voltage on pins 3 and 4 with a multimeter will ensure RS485 signal between the inverter and the communication device. RS-485 voltage should read ~1.7Volts on DC  
+ 
+ ![jvBFBvn7jiKxfafyXGftIUBeaRcgPQb5RQ](https://user-images.githubusercontent.com/118439620/233996781-e964f259-f771-4055-ad35-1e9219c80a2e.png)
+
+ ![Qnj0q0FOZYWB603nZCFglUWanluht1yDXQ](https://user-images.githubusercontent.com/118439620/233996798-17b65f67-b93c-47ab-b19d-1abcf0fe85e6.png)
+
+
 # Elfin EW11 Config for Home Assistant
 
 The Elfin adapater creates its own hotspot on startup, you will need to configure it for your own wifi network and use the settings below. PLEASE NOTE IT WILL NEED A STATIC IP. 
