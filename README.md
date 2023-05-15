@@ -38,6 +38,32 @@ There appears to be quite a few of these available,  not sure if they all have t
 
 There is a windows app to configure the hub, but it is in Chineese, but there is no need to tinker with it as the defaults work fine for this application.
 
+## Product overview
+
+GC-1201 two-way buffer isolation type RS485 hub is a communication device that supports two-way RS485 master station equipment and one or more-way RS485 slave station equipment, and is used to solve communication conflicts caused by two master stations communicating with slave stations at the same time The problem is that the master station 1 will only return the data of the slave station to the master station 1 but not the master station 2 , and the query data of the slave station on the master station 2 will only return to the master station 2 instead of the master station 1 . The interface between the master station and the slave station uses photoelectric isolation technology to protect the master station equipment from interference. The circuit is designed with 15KV ESD protection and 5KA lightning surge protection devices, which can effectively isolate the damage caused by lightning strikes and static electricity to the equipment. Each of the three communication interfaces has a communication indicator light, and the status of each communication interface can be seen intuitively. Transparent data transmission between master station and slave station interface, communication format and baud rate can be set by software.
+
+This product is suitable for comprehensive RS485 communication systems such as automatic control system, monitoring system, alarm, access control system, IC card charging, meter reading, one-card, parking lot charging, etc.
+
+## Features
+
+Power input DC9-36V with over-current and reverse polarity protection
+
+Support two RS485 master devices to communicate with one or more RS485 slave devices
+
+Support module ID setting (only limited to Modbus - RTU protocol)
+
+The baud rate and communication format of the three ports can be set independently
+
+The signal interface has static electricity, lightning strike and surge protection
+
+Communication and power supply are completely isolated between master and slave interfaces
+
+Using 32 -bit MCU and high-speed optocoupler, the baud rate can reach up to 115200
+
+The communication port of the slave station supports a maximum of 250 nodes
+
+
+
 # Elfin-EW11
 
 ![images (1) jpers485](https://user-images.githubusercontent.com/118439620/233860581-a5dc78f6-2aaa-4502-b845-95e5ef474e98.jpeg)
