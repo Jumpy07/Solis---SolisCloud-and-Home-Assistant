@@ -39,6 +39,7 @@ There are three models of these devices available, make sure you buy the correct
 There is a windows app to configure the hub, but it is in Chineese, but there is no need to tinker with it as the defaults work fine for this application.
 
 Chinese Manual: https://greatcontroltech.com/filedownload/644365
+
 Configuration Tool, (Chinese) https://greatcontroltech.com/filedownload/644366  (not required for the application)
 
 # Elfin-EW11
