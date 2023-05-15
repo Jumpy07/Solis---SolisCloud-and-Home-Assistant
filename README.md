@@ -34,35 +34,12 @@ I will assume you know your way around TCP/IP networks, have Home Assistant allr
 
 ![30184964](https://user-images.githubusercontent.com/118439620/233855180-48cb40f2-3c9e-4b50-9c8e-d85f422f4d14.jpg)
 
-There appears to be quite a few of these available,  not sure if they all have the same features, so this is the link to the one I bought: https://www.aliexpress.com/item/1005005128549371.html?spm=a2g0o.productlist.main.1.353847f3QnMMn4&algo_pvid=60b48212-7e50-4f36-a683-2d5b3f50ac56&algo_exp_id=60b48212-7e50-4f36-a683-2d5b3f50ac56-0&pdp_npi=3%40dis%21GBP%2122.75%2120.93%21%21%21%21%21%40211bd8be16824105524221086d07da%2112000031771589334%21sea%21UK%21164589609&curPageLogUid=ZJza73apo6la
+There are three models of these devices available, make sure you buy the correct version, (GC-1201) so this is the link to the one I bought: https://www.aliexpress.com/item/1005005128549371.html?spm=a2g0o.productlist.main.1.353847f3QnMMn4&algo_pvid=60b48212-7e50-4f36-a683-2d5b3f50ac56&algo_exp_id=60b48212-7e50-4f36-a683-2d5b3f50ac56-0&pdp_npi=3%40dis%21GBP%2122.75%2120.93%21%21%21%21%21%40211bd8be16824105524221086d07da%2112000031771589334%21sea%21UK%21164589609&curPageLogUid=ZJza73apo6la
 
 There is a windows app to configure the hub, but it is in Chineese, but there is no need to tinker with it as the defaults work fine for this application.
 
-## Product overview
-
-GC-1201 two-way buffer isolation type RS485 hub is a communication device that supports two-way RS485 master station equipment and one or more-way RS485 slave station equipment, and is used to solve communication conflicts caused by two master stations communicating with slave stations at the same time The problem is that the master station 1 will only return the data of the slave station to the master station 1 but not the master station 2 , and the query data of the slave station on the master station 2 will only return to the master station 2 instead of the master station 1 . The interface between the master station and the slave station uses photoelectric isolation technology to protect the master station equipment from interference. The circuit is designed with 15KV ESD protection and 5KA lightning surge protection devices, which can effectively isolate the damage caused by lightning strikes and static electricity to the equipment. Each of the three communication interfaces has a communication indicator light, and the status of each communication interface can be seen intuitively. Transparent data transmission between master station and slave station interface, communication format and baud rate can be set by software.
-
-This product is suitable for comprehensive RS485 communication systems such as automatic control system, monitoring system, alarm, access control system, IC card charging, meter reading, one-card, parking lot charging, etc.
-
-## Features
-
-Power input DC9-36V with over-current and reverse polarity protection
-
-Support two RS485 master devices to communicate with one or more RS485 slave devices
-
-Support module ID setting (only limited to Modbus - RTU protocol)
-
-The baud rate and communication format of the three ports can be set independently
-
-The signal interface has static electricity, lightning strike and surge protection
-
-Communication and power supply are completely isolated between master and slave interfaces
-
-Using 32 -bit MCU and high-speed optocoupler, the baud rate can reach up to 115200
-
-The communication port of the slave station supports a maximum of 250 nodes
-
-
+Chinese Manual: https://greatcontroltech.com/filedownload/644365
+Configuration Tool, (Chinese) https://greatcontroltech.com/filedownload/644366  (not required for the application)
 
 # Elfin-EW11
 
