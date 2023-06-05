@@ -49,7 +49,6 @@ Configuration Tool, (Chinese) https://greatcontroltech.com/filedownload/644366  
 
 # Connecting it all up
 
-![solis](https://user-images.githubusercontent.com/118439620/233855405-deb309dd-1b54-49ac-9ebf-71d98e47ed87.jpg)
 
 <img src="Modbus_Interface_Block_Diagram.jpg">
 
