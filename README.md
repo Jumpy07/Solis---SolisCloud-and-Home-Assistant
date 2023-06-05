@@ -34,7 +34,7 @@ I will assume you know your way around TCP/IP networks, have Home Assistant allr
 
 ![30184964](https://user-images.githubusercontent.com/118439620/233855180-48cb40f2-3c9e-4b50-9c8e-d85f422f4d14.jpg)
 
-There are three models of these devices available, make sure you buy the correct version, (GC-1201) so this is the link to the one I bought: https://www.aliexpress.com/item/1005005201834192.html
+There are three models of these devices available, make sure you buy the correct version, (GC-1201), (two masters), so this is the link to the one I bought: https://www.aliexpress.com/item/1005005201834192.html
 
 There is a windows app to configure the hub, but it is in Chineese, but there is no need to tinker with it as the defaults work fine for this application.
 
